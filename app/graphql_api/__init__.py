@@ -9,7 +9,7 @@ from resolvers.hello.resolve_hello import *
 
 @strawberry.type
 class Query:
-    hello_word = strawberry.field (resolve_hello_word)
+    hello_world = strawberry.field (resolve_hello_world)
 
 schema = strawberry.Schema (query=Query())
 graphql_app = GraphQL (schema, debug=True)
