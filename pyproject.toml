@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-starter"
+version = "0.1.0"
+description = ""
+authors = ["RegGamail <reginaldo.arakaki@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+fastapi-utils = "^0.8.0"
+uvicorn = "^0.34.0"
+gunicorn = "^23.0.0"
+pydantic = "^2.10.4"
+dataclasses-json = "^0.6.7"
+gql = "^3.5.0"
+strawberry-graphql = "^0.256.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
